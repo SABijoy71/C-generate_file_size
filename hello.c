@@ -4,7 +4,7 @@
 int main(){
 
 	FILE *fp;
-	fp = fopen("img.jpg", "rb");
+	fp = fopen("img.jpg", "rb"); // Anytype of file can be useable //
 	if(fp == NULL){
 		perror("Can't open file!");
 		return EXIT_FAILURE;
